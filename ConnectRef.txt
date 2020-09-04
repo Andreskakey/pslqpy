@@ -4,4 +4,3 @@ cursor = connect.cursor()
 cursor.execute("SELECT * FROM city LIMIT 20")
 for row in cursor;
 	print(row)
-	
